@@ -17,15 +17,15 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94774071805'
 global.devs = '94774071805';
 global.website = 'https://kaveeshasithum.netlify.app/' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.ibb.co/zrvByTb/IMG-20230609-WA0083.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/2291443fd69596abd3da2.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'DARK-NERO-MD 💗' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'CYBER-YAKUZA' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? "Dark-Nero;;;LevinsonInuit" : process.env.SESSION_ID,
   author:  process.env.PACK_INFO=== undefined ? '💗🎵DARK NERO:CYBER-YAKUZA' : process.env.PACK_INFO,
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO === undefined ? 'DARKNERO-MD' : process.env.PACK_INFO,	
-  dl_limit: process.env.DL_SIZE || '350',
+  dl_limit: process.env.DL_SIZE || '400',
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
